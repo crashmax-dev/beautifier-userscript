@@ -2,19 +2,17 @@ lockfileVersion: 5.4
 
 specifiers:
   '@crashmax/tsconfig': ^1.0.2
-  '@types/node': ^18.7.11
   '@types/tampermonkey': ^4.0.5
   typescript: ^4.6.4
   vite: ^3.0.7
-  vite-userscript-plugin: ^0.8.3
+  vite-userscript-plugin: ^0.9.0
 
 devDependencies:
   '@crashmax/tsconfig': 1.0.2
-  '@types/node': 18.7.11
   '@types/tampermonkey': 4.0.5
   typescript: 4.7.4
   vite: 3.0.9
-  vite-userscript-plugin: 0.8.3_@types+tampermonkey@4.0.5
+  vite-userscript-plugin: 0.9.0_@types+tampermonkey@4.0.5
 
 packages:
 
@@ -31,10 +29,6 @@ packages:
     requiresBuild: true
     dev: true
     optional: true
-
-  /@types/node/18.7.11:
-    resolution: {integrity: sha512-KZhFpSLlmK/sdocfSAjqPETTMd0ug6HIMIAwkwUpU79olnZdQtMxpQP+G1wDzCH7na+FltSIhbaZuKdwZ8RDrw==}
-    dev: true
 
   /@types/tampermonkey/4.0.5:
     resolution: {integrity: sha512-FGPo7d+qZkDF7vyrwY1WNhcUnfDyVpt2uyL7krAu3WKCUMCfIUzOuvt8aSk8N2axHT8XPr9stAEDGVHLvag6Pw==}
@@ -447,8 +441,8 @@ packages:
     resolution: {integrity: sha512-4+wkEYLBbWxqTahEsWrhxepcoVOJ+1z5PGIjPZxRkytcdSUaNjIjBM7Xn8E+pdSuV7SzvWovBFA54FO0JSoqhA==}
     dev: true
 
-  /vite-userscript-plugin/0.8.3_@types+tampermonkey@4.0.5:
-    resolution: {integrity: sha512-FLIFlqHmUbxGvi8cBIMSnhe+3Wl8a2ElafPnwOWbRGeiFnGIohHxYImG32L/9TxzgKCogYdg+rPqz8WgDExjUA==}
+  /vite-userscript-plugin/0.9.0_@types+tampermonkey@4.0.5:
+    resolution: {integrity: sha512-XffdgYny6NwgrX5V9mWpgFRkBqsqGa3WPwFrdO2gD9hFIVkTMn42g27E3D9+H1XzEny7ZgE+OTdPMm5/kiMcbA==}
     peerDependencies:
       '@types/tampermonkey': '>=4.0.0'
     dependencies:
