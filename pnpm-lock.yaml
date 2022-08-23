@@ -1,18 +1,27 @@
 lockfileVersion: 5.4
 
 specifiers:
+  '@crashmax/tsconfig': ^1.0.2
   '@types/node': ^18.7.11
+  '@types/tampermonkey': ^4.0.5
   typescript: ^4.6.4
   vite: ^3.0.7
   vite-userscript-plugin: ^0.8.3
 
 devDependencies:
+  '@crashmax/tsconfig': 1.0.2
   '@types/node': 18.7.11
+  '@types/tampermonkey': 4.0.5
   typescript: 4.7.4
   vite: 3.0.9
   vite-userscript-plugin: 0.8.3_@types+tampermonkey@4.0.5
 
 packages:
+
+  /@crashmax/tsconfig/1.0.2:
+    resolution: {integrity: sha512-rprJ3GpbSwegNFoV7TgE2ak6xMc4sT+6blW2xyeO6C8ka3gc1zc4++kBEvJUGmt9J/4bPl4RPX676VK/lZohdw==}
+    engines: {node: '>=14'}
+    dev: true
 
   /@esbuild/linux-loong64/0.14.54:
     resolution: {integrity: sha512-bZBrLAIX1kpWelV0XemxBZllyRmM6vgFQQG2GdNb+r3Fkp0FOh1NJSvekXDs7jq70k4euu1cryLMfU+mTXlEpw==}
