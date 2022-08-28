@@ -10,8 +10,8 @@
   "devDependencies": {
     "@crashmax/tsconfig": "^1.0.2",
     "@types/tampermonkey": "^4.0.5",
-    "typescript": "^4.6.4",
+    "typescript": "^4.8.2",
     "vite": "^3.0.7",
-    "vite-userscript-plugin": "^0.9.0"
+    "vite-userscript-plugin": "^1.1.0"
   }
 }
