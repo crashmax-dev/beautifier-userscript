@@ -1,6 +1,6 @@
 import { defineConfig } from 'vite'
 import Userscript from 'vite-userscript-plugin'
-import { name, version } from './package.json'
+import { name, version, homepage } from './package.json'
 
 export default defineConfig({
   plugins: [
@@ -9,6 +9,7 @@ export default defineConfig({
       header: {
         name,
         version,
+        homepage,
         match: 'https://beautifier.io'
       }
     })
